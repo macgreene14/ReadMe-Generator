@@ -8,6 +8,12 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
+  return (license ? `![License URL](https://choosealicense.com/licenses/${license}/)` : '')
+}
+
+// returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {
   const resource_lookup = {
     'Apache License 2.0': 'apache-2.0', 
     'MIT License': 'mit',
@@ -21,15 +27,12 @@ function renderLicenseLink(license) {
 
   const license_resource = resource_lookup[license]
 
-  return (license_resource ? `![License URL](https://choosealicense.com/licenses/${license_resource}/)` : '')
-}
-
-// returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  const badge = renderLicenseBadge(license)
-  const link = renderLicenseLink(license)
-  const licenseSection = badge + link
+  const badge = renderLicenseBadge(license_resource)
+  const link = renderLicenseLink(license_resource)
+  const licenseSection = 
+  `${badge}
+  
+  ${link}`
   
   return licenseSection
 } 
@@ -61,9 +64,7 @@ function generateMarkdown(answers) {
   
   ## License
   
-  ${answers.license}
-
-  ${renderLicenseSection(answers)}
+  ${renderLicenseSection(answers.license)}
     
   ---
 
