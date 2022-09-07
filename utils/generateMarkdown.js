@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
-  return (license ? `![License URL](https://choosealicense.com/licenses/${license}/)` : '')
+  return (license ? `[License: ${license}](https://choosealicense.com/licenses/${license}/)` : '')
 }
 
 // returns the license section of README
@@ -85,7 +85,7 @@ function generateMarkdown(answers) {
   
   ## Questions?
 
-  Github: ![${answers.github}](https://github.com/${answers.github})
+  Github: [${answers.github}](https://github.com/${answers.github})
 
   Email: ${answers.email}
 

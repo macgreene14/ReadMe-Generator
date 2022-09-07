@@ -24,7 +24,7 @@
   
   ![License Badge](https://img.shields.io/badge/License-mit-green)
   
-  ![License URL](https://choosealicense.com/licenses/mit/)
+  [License: mit](https://choosealicense.com/licenses/mit/)
     
   ---
 
@@ -45,7 +45,7 @@
   
   ## Questions?
 
-  Github: ![macgreene14](https://github.com/macgreene14)
+  Github: [macgreene14](https://github.com/macgreene14)
 
   Email: macgreene14@gmail.com
 
