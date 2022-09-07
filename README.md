@@ -4,9 +4,6 @@
   
   This application prompts users to input project information, from which a markdown file is created and added into the local directory.
   
-  ## Video Demonstration
-  
-  ![Video Demo](https://user-images.githubusercontent.com/33014789/188982163-764b5f6f-7889-4500-b4f4-8508539f8b07.mp4)
   
   ## Table of Contents
   
