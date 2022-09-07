@@ -9,8 +9,11 @@
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)  
+  - [Contributing](#contributing)  
+  - [Tests](#tests)  
+  - [Questions](#questions)  
   
   ## Installation
   
@@ -42,7 +45,7 @@
   
   ## Questions?
 
-  Please reach out to me over Email or Github with additional questions. 
+  Please reach out to me over Email or Github with additional questions!
 
   Github: [macgreene14](https://github.com/macgreene14)
 

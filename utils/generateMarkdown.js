@@ -34,7 +34,7 @@ function renderLicenseSection(license) {
   `${badge}
   
   ${link}`
-  
+
   return licenseSection
 } 
 
@@ -52,8 +52,11 @@ function generateMarkdown(answers) {
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)  
+  - [Contributing](#contributing)  
+  - [Tests](#tests)  
+  - [Questions](#questions)  
   
   ## Installation
   
@@ -83,7 +86,7 @@ function generateMarkdown(answers) {
   
   ## Questions?
 
-  Please reach out to me over Email or Github with additional questions. 
+  Please reach out to me over Email or Github with additional questions!
 
   Github: [${answers.github}](https://github.com/${answers.github})
 
