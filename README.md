@@ -18,7 +18,7 @@
     
   ## Usage
   
-  Input the requested information into the command prompt to propagate the README.md template.
+  Input the requested information into the command prompt to populate the README.md template.
   
   ## License
   
@@ -32,8 +32,7 @@
   
   ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-  
-  ## How to Contribute
+  ## Contributing
   
   If you would like to contribute, reach out at email or github provided.
     
@@ -41,9 +40,9 @@
   
   No tests were provided with this package.
   
-  Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-  
   ## Questions?
+
+  Please reach out to me over Email or Github with additional questions. 
 
   Github: [macgreene14](https://github.com/macgreene14)
 
