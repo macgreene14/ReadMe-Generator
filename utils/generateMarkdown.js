@@ -24,11 +24,12 @@ function renderLicenseSection(license) {
     'Boost Software License 1.0': 'bsl-1.0', 
     'The Unlicense': 'unlicense',
   }
-
   const license_resource = resource_lookup[license]
 
   const badge = renderLicenseBadge(license_resource)
+
   const link = renderLicenseLink(license_resource)
+
   const licenseSection = 
   `${badge}
   
@@ -72,8 +73,7 @@ function generateMarkdown(answers) {
   
   ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-  
-  ## How to Contribute
+  ## Contributing
   
   ${answers.contributing}
     
@@ -81,9 +81,9 @@ function generateMarkdown(answers) {
   
   ${answers.tests}
   
-  Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-  
   ## Questions?
+
+  Please reach out to me over Email or Github with additional questions. 
 
   Github: [${answers.github}](https://github.com/${answers.github})
 
