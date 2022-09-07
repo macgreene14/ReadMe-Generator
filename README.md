@@ -28,9 +28,9 @@ https://user-images.githubusercontent.com/33014789/188987472-61f6d34e-0d24-4d18-
   
   ## License
   
-  ![License Badge](https://img.shields.io/badge/License-mit-green)
+  ![License Badge](https://img.shields.io/badge/License-MIT-green)
   
-  [License: mit](https://choosealicense.com/licenses/mit/)
+  [License: MIT](https://choosealicense.com/licenses/mit/)
     
   ---
 
