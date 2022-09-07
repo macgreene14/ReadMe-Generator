@@ -6,17 +6,17 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
     {name: 'title', message: 'Project Title:' },
     {name: 'description', message: 'Project Description:'},
-    {name: 'installation', message: ''}, 
-    {name: 'usage', message: ''}, 
-    {name: 'license', message: ''}, 
-    {name: 'contributing', message: ''}, 
-    {name: 'tests', message: ''}, 
-    {name: 'email', message: ''}, 
-    {name: 'github', message: ''},
+    {name: 'installation', message: 'Project Installation:'}, 
+    {name: 'usage', message: 'Project Usage:'}, 
+    {name: 'license', message: 'Project License:'}, 
+    {name: 'contributing', message: 'Project Contributions:'}, 
+    {name: 'tests', message: 'Tests:'}, 
+    {name: 'email', message: 'Author Email:'}, 
+    {name: 'github', message: 'Author Gihub Profile:'},
 ];
 
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data), (err) => err ? console.log("Error writing to file") : console.log(`Created file ${fileName}`));
+    fs.writeFile(fileName, data, (err) => err ? console.log("Error writing to file") : console.log(`Created file ${fileName}`));
 }
 
 function init() {
